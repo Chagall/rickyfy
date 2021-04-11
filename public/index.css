@@ -1,4 +1,32 @@
+@font-face {
+  font-family: "Impact";
+  font-style: normal;
+  font-weight: normal;
+  src: url("./fonts/impact.ttf");
+}
+
 body {
-    margin-top: -20px;
-    background-image: url("./background.png");
+  background-image: url("./images/background-white.png");
+  font-family: "Impact" !important;
+  margin-top: 10vh;
+}
+
+.rickyfybutton {
+  background-color: #d20000;
+  display: block;
+  margin: 0 auto;
+  border: solid;
+  border-width: 6px;
+  border-color: black;
+  color: white;
+  margin-top: 2vh;
+  padding: 8px 32px;
+  font-size: 24px;
+  border-radius: 6px;
+  font-family: Impact;
+}
+
+.rickyfybutton:hover {
+  background-color: #ff0000;
+  color: white;
 }
